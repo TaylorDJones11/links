@@ -1,1 +1,138 @@
-<h1>My link in bio</h1>
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #1e0129;
+      }
+
+      .name {
+        color: #fffffe;
+        display: flex;
+        justify-content:center;
+      
+      }
+      
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+      }
+
+      .link {
+        background-color: #f9bc60;
+      }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner img {
+        width: 128px;
+        height: 128px;
+        object-fit:cover;
+        border-radius: 128px;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
+      .link {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      
+    </style>
+  
+      <title>Links</title>
+    </head>
+  <body>
+    <div class="items">
+    <div class="banner">
+      <img src="profile-pic.png" alt="Taylor D. Jones headshot">
+    </div>
+  
+    <div class="name">
+      Taylor D. Jones
+    </div>
+  
+    <div class="social-icons">
+      <a href="https://github.com/TaylorDJones11"  target="_blank">
+        GitHub
+      </a>
+  
+      <a href="https://www.linkedin.com/in/-taylor-d-jones/" target="_blank">
+        LinkedIn
+      </a>
+  
+      <a href="https://twitter.com/TayTechJ" target="_blank">
+        Twitter
+      </a>
+    </div>
+  
+    <div class="link">
+      <img
+      class="thumbnail"
+        src="engineer.png" alt="Engineer on Computer">
+  
+      <a target="_blank" href="https://www.forbes.com/advisor/education/become-software-engineer/">How to Become a Software Engineer
+        — Christin Perry</a>
+    </div>
+  
+    <div class="link">
+      <img class="thumbnail" src="freecode.png" alt="Freecodecamp Logo">
+  
+      <a target="_blank"
+        href="https://www.freecodecamp.org/news/what-programming-language-should-i-learn-first-19a33b0a467d/"> Programming Languages in 2024 - Quincy Larson
+        </a>
+    </div>
+  
+    <div class="link">
+      <img
+      class="thumbnail"
+        src="ruby.png" alt="Ruby on Rails">
+  
+      <a target="_blank" href="https://www.learnenough.com/blog/companies-using-ruby-on-rails">Companies Using Ruby on Rails in 2024</a>
+    </div>
+  </div>
+    </body>
+</html>
